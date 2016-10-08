@@ -14,5 +14,5 @@ The following two types of fractal matrices will be used.
 5. [ 20 Points ] Repeat parts (b)–(d) assuming Y to be another n × n ∆-fractal matrix.
 6. [ 20 Points ] Repeat parts (b)–(d) assuming Y to be an n × n ∇-fractal matrix
 
-* **Solution: **
+* **Solution:**
 1. 
