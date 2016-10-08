@@ -1,21 +1,62 @@
-<h3 id="task-3-70-points-multiplying-fractal-matrices">Task 3: [ 70 Points ] Multiplying Fractal Matrices</h3>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Aoa by l33torkarna</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Aoa</h1>
+        <h2>AOA: Test</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/l33torkarna/AOA/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/l33torkarna/AOA/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/l33torkarna/AOA" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>
+<a id="task-3--70-points--multiplying-fractal-matrices" class="anchor" href="#task-3--70-points--multiplying-fractal-matrices" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 3: [ 70 Points ] Multiplying Fractal Matrices</h3>
 
 <ul>
-<li><p>In this task we will consider matrices in which some of the entries are guaranteed to be zeros, and the cells that may contain nonzero entries form a fractal shape. We will call them fractal matrices. We will only consider square matrices, and assume that for each such n × n matrix n will be a power of 2, i.e., n = 2k for some integer k ≥ 1. Row and column numbers will be from 0 to n − 1. <br>
+<li>
+<p>In this task we will consider matrices in which some of the entries are guaranteed to be zeros, and the cells that may contain nonzero entries form a fractal shape. We will call them fractal matrices. We will only consider square matrices, and assume that for each such n × n matrix n will be a power of 2, i.e., n = 2k for some integer k ≥ 1. Row and column numbers will be from 0 to n − 1.<br>
 The following two types of fractal matrices will be used.</p>
 
-<ul><li><strong>∆-Fractal</strong>. A cell (i, j) will definitely contain a zero provided the bitwise AND of i and j is nonzero.</li>
-<li><strong>∇-Fractal</strong>. A cell (i, j) will definitely contain a zero provided the bitwise AND of (n − i − 1) and (n − j − 1) is nonzero.</li></ul>
+<ul>
+<li>
+<strong>∆-Fractal</strong>. A cell (i, j) will definitely contain a zero provided the bitwise AND of i and j is nonzero.</li>
+<li>
+<strong>∇-Fractal</strong>. A cell (i, j) will definitely contain a zero provided the bitwise AND of (n − i − 1) and (n − j − 1) is nonzero.</li>
+</ul>
 
 <p>We will analyze running times of the three matrix multiplication algorithms we have seen in the class, namely the standard iterative algorithm, the standard recursive algorithm and Strassen’s algorithm, for computing products XY , where X is a ∆-fractal matrix and Y is either a ∆-fractal or a ∇-fractal or a standard matrix. The major question we will ask is if Strassen’s algorithm is still asymptotically faster than the other two algorithms.</p>
-
-<ol><li>[ 5 Points ] Draw ∆-fractal matrices of sizes 2 × 2, 4 × 4, 8 × 8 and 16 × 16, and only mark the cells that are not guaranteed to be zeros leaving all other cells empty. Do the same for ∇-fractal matrices.</li>
+</li>
+<li>[ 5 Points ] Draw ∆-fractal matrices of sizes 2 × 2, 4 × 4, 8 × 8 and 16 × 16, and only mark the cells that are not guaranteed to be zeros leaving all other cells empty. Do the same for ∇-fractal matrices.</li>
 <li>[ 5 Points ] If X is an n × n ∆-fractal matrix and Y is an n × n standard matrix, what is the running time of the standard recursive algorithm for computing XY ?</li>
 <li>[ 10 Points ] How will you modify the layout of the matrices so that the standard iterative algorithm can compute the product in part (b) within the same asymptotic time bound as the standard recursive algorithm?</li>
 <li>[ 10 Points ] What will be the running time of Strassen’s algorithm for computing the product in part (b)?</li>
 <li>[ 20 Points ] Repeat parts (b)–(d) assuming Y to be another n × n ∆-fractal matrix.</li>
-<li>[ 20 Points ] Repeat parts (b)–(d) assuming Y to be an n × n ∇-fractal matrix</li></ol></li>
-<li><p><strong>Solution: </strong></p>
-
-<ol><li></li></ol></li>
+<li><p>[ 20 Points ] Repeat parts (b)–(d) assuming Y to be an n × n ∇-fractal matrix</p></li>
+<li><p>*<em>Solution: *</em></p></li>
+<li>
 </ul>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
